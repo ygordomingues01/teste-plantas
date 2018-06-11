@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 
 header{
@@ -8,6 +9,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 header div{
@@ -33,6 +35,13 @@ header input{
 header img{
     width: 25px;
     margin-left: -40px;
+}
+
+.principal{
+    width: 1024px;
+    display: block;
+    margin: auto;
+
 }
 
 .principal > div:nth-child(1){
@@ -61,8 +70,4 @@ margin-left: -15px;
 
 .principal{
     display: flex;
-}
-
-.principal > div:nth-child(1){
-    
 }
